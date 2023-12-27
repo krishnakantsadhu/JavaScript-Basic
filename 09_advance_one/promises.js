@@ -1,16 +1,18 @@
 const promiseOne = new Promise(function(resolve, reject){
     //Do an async task
     // DB calls, cryptography, network
+   
     setTimeout(function(){
-        console.log('Async task is compelete');
+        console.log('Async task is complete');
         resolve()
     }, 1000)
 })
 
 promiseOne.then(function(){
-    console.log("Promise consumed");
+    console.log("Promise consumed ");
 })
 
+/*
 new Promise(function(resolve, reject){
     setTimeout(function(){
         console.log("Async task 2");
@@ -100,3 +102,4 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 
 // promise.all
 // yes this is also available, kuch reading aap b kro.
+*/

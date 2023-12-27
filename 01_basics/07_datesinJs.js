@@ -17,7 +17,7 @@ let myTimeStamp = Date.now()
 
 console.log(myTimeStamp);
 console.log(new Date());
-// console.log(myCreatedDate.getTime());
+console.log(myCreatedDate.getTime());  //millisecond since 01/01/1970
 // console.log(Math.floor(Date.now()/1000));
 
 let newDate = new Date()

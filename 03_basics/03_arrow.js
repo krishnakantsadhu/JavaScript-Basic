@@ -1,5 +1,5 @@
 const user = {
-    username: "hitesh",
+    username: "krishnakant",
     price: 999,
 
     welcomeMessage: function() {
@@ -32,23 +32,23 @@ const chai =  () => {
     console.log(this);
 }
 
-
 // chai()
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
 // }
 
-// const addTwo = (num1, num2) =>  num1 + num2
+//  const addTwo = (num1, num2) =>  num1 + num2
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+// const addTwo = (num1, num2) => ({username: "hitesh"})
 
 
-console.log(addTwo(3, 4))
+// console.log(addTwo(3, 4))
 
 
-// const myArray = [2, 5, 3, 7, 8]
+ const myArray = [2, 5, 3, 7, 8]
 
-// myArray.forEach()
+ //forEach taken function as paramter
+myArray.forEach((ele)=>{console.log(ele)})

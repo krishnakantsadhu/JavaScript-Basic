@@ -12,5 +12,10 @@ const User = {
     }
 }
 
-const tea = Object.create(User)
+const tea = Object.create(User)  //create using factory method
+//const tea = new User()
+
+console.log(tea.email);
+
+//tea.email('dsdsds')
 console.log(tea.email);

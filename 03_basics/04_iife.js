@@ -6,7 +6,7 @@
     console.log(`DB CONNECTED`);
 })();
 
-( (name) => {
-    console.log(`DB CONNECTED TWO ${name}`);
-} )('hitesh')
+( (name, lname, age) => {
+    console.log(`DB CONNECTED TWO ${name} ${lname} age ${age}`);
+} )('krish','sadhu',25)
 
